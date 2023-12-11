@@ -41,6 +41,6 @@ jobs:
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
           path: 'public' # UPDATE THIS TO YOUR BUILD/FILES DIRECTORY
-          destination: 'storage-bucket-name' # UPDATE THIS TO YOUR BUCKET NAME
+          destination: 'unhappygopher1234' # UPDATE THIS TO YOUR BUCKET NAME
           parent: false
 
