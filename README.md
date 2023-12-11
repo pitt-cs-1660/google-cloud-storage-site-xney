@@ -1,3 +1,7 @@
+redirect loadbalancer IP: 34.144.200.16:80
+loadbalancer IP: 34.144.200.16:443
+Static Website URL: https://storage.googleapis.com/unhappygopher1234/index.html
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/p3a22N-M)
 # CS1660 Static Website Project
 
@@ -66,3 +70,4 @@ The project is worth 15 points and the following rubric will be used to grade yo
   - `https://storage.googleapis.com/<your-bucket-name>/index.html`
 - You can use the following command to upload your assets to the Cloud Storage bucket before the GitHub Actions workflow is configured.
   - `gcloud storage cp . gs://<YOUR_STORAGE_BUCKET> -r`
+
